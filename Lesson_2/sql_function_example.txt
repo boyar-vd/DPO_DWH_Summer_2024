@@ -1,0 +1,18 @@
+CREATE OR REPLACE FUNCTION ods.load_fraud_full()
+ RETURNS void
+ LANGUAGE plpgsql
+AS $function$
+	
+declare
+--	var_name datatype; Объявляем переменные
+
+begin
+
+--	var_name:=var_value; Задаем значение переменным
+	
+--	Тело функции
+
+end;
+
+$function$
+;
